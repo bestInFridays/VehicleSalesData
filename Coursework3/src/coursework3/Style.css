@@ -1,0 +1,43 @@
+.AnchorPane{
+    -fx-background-color: white;
+}
+
+.Title {
+    -fx-font: 30"Verdana";   
+    -fx-text-fill: white;
+}
+
+.Label{
+    -fx-font: 12"Verdana";
+    
+}
+
+.option_text{
+    -fx-font: 12"Trebuchet MS";
+}
+
+.choiceBox{
+    -fx-background-radius: 10;
+}
+
+.button{
+    -fx-font: 12"arial";
+    -fx-background-color: 
+        #c3c4c4,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 20;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-pref-width: 60px;
+}
+
+.button:hover{
+    -fx-background-color: #ccc
+        linear-gradient(#d6d6d6 50%, white 100%);
+}
+
+.bg{
+    -fx-background-color: #484848;
+}
